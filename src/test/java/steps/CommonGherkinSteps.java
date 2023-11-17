@@ -55,5 +55,13 @@ public class CommonGherkinSteps {
     public void userVerifyWebElementIsVisible(String selector) {
         commonMethods.userVerifyWebElementIsVisible(selector);
     }
+    
+    @Then("User Validates Label Text: {string} displayed at WebElement: {string}")
+    public void user_validates_label_text_displayed_at_web_element(String string, String string2) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
+
 
 }
