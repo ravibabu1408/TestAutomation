@@ -154,7 +154,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 17-11-2023 09:54</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 17-11-2023 13:57</span>
     <br style="clear:left"/>
 </div>
 
@@ -213,64 +213,96 @@
 
     <div class="story-title">
         <h3>Scenario:</h3>
-        <div class="scenario">Given User visit the Rediff Web Portal: "siteName"<br>When User wait 2000 milliseconds for page load<br>When User clicks on WebElement: "LandingPage_Button_Consent"<br>When User wait 2000 milliseconds for page load<br>When User clicks on WebElement: "LandingPage_Link_Rediffmail"<br>When User enters Data: "UserName" at WebElement: "LoginPage_Input_UserName"<br>When User enters Data: "Password" at WebElement: "LoginPage_Input_Password"<br>Then User clicks on WebElement: "LoginPage_Button_SignIn"<br>When User wait 2000 milliseconds for page load</div>
+        <div class="scenario">Given User visit the Rediff Web Portal: "siteName"<br>When User wait 2000 milliseconds for page load<br>When User clicks on WebElement: "LandingPage_Button_Consent"<br>When User wait 2000 milliseconds for page load<br>When User clicks on WebElement: "LandingPage_Link_Rediffmail"<br>Then User Validates Label Text: "Username" displayed at WebElement: "LoginPage_Label_UserName"<br>Then User Validates Label Text: "Password" displayed at WebElement: "LoginPage_Label_Password"<br>Then User Validates Button Text: "Sign in" displayed at WebElement: "LoginPage_Label_SignIn"<br>When User enters Data: "UserName" at WebElement: "LoginPage_Input_UserName"<br>When User enters Data: "Password" at WebElement: "LoginPage_Input_Password"<br>Then User clicks on WebElement: "LoginPage_Button_SignIn"<br>When User wait 2000 milliseconds for page load<br>Then User Validates Error Message: "Wrong username and password combination." displayed at WebElement: "LoginPage_Error_InvalidCredentioals"</div>
     </div>
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="a6a388c4371946f75f06416391c0fc8e255dcd5f8f2185fb549c172755574129.png" title=" 1: Login to Rediff with valid user credentials ({UserName=UserName, Password=Password, countryGroup=https://www.rediff.com/})" width="1920"/>
-                <img src="a6a388c4371946f75f06416391c0fc8e255dcd5f8f2185fb549c172755574129.png" title=" Given User visit the Rediff Web Portal: &quot;siteName&quot;" width="1920"/>
-                <img src="a6a388c4371946f75f06416391c0fc8e255dcd5f8f2185fb549c172755574129.png" title=" User visit the gigya web page: https://www.rediff.com/" width="1920"/>
-                <img src="a6a388c4371946f75f06416391c0fc8e255dcd5f8f2185fb549c172755574129.png" title=" Given User visit the Rediff Web Portal: &quot;siteName&quot; (completed)" width="1920"/>
-                <img src="a6a388c4371946f75f06416391c0fc8e255dcd5f8f2185fb549c172755574129.png" title=" When User wait 2000 milliseconds for page load" width="1920"/>
-                <img src="3279b663da66cd080873af9fdcd1eab38d9e542cfd0f8b3fbb86a55db590db37.png" title=" When User wait 2000 milliseconds for page load (completed)" width="1920"/>
-                <img src="3279b663da66cd080873af9fdcd1eab38d9e542cfd0f8b3fbb86a55db590db37.png" title=" When User clicks on WebElement: &quot;LandingPage_Button_Consent&quot;" width="1920"/>
-                <img src="3279b663da66cd080873af9fdcd1eab38d9e542cfd0f8b3fbb86a55db590db37.png" title=" User clicks on: LandingPage_Button_Consent" width="1920"/>
-                <img src="3279b663da66cd080873af9fdcd1eab38d9e542cfd0f8b3fbb86a55db590db37.png" title=" Get web element facade: LandingPage_Button_Consent" width="1920"/>
-                <img src="3279b663da66cd080873af9fdcd1eab38d9e542cfd0f8b3fbb86a55db590db37.png" title=" Get web element facade: LandingPage_Button_Consent (completed)" width="1920"/>
-                <img src="3279b663da66cd080873af9fdcd1eab38d9e542cfd0f8b3fbb86a55db590db37.png" title=" GigyaUser clicks on By.xpath: //button[@role='button' and @aria-label='Consent']" width="1920"/>
-                <img src="c45d6055a4c4c2b186da27db4a5f1835064b9d775d886c60e7b9c6c3d1bb86cb.png" title=" GigyaUser clicks on By.xpath: //button[@role='button' and @aria-label='Consent'] (completed)" width="1920"/>
-                <img src="c45d6055a4c4c2b186da27db4a5f1835064b9d775d886c60e7b9c6c3d1bb86cb.png" title=" User clicks on: LandingPage_Button_Consent (completed)" width="1920"/>
-                <img src="c45d6055a4c4c2b186da27db4a5f1835064b9d775d886c60e7b9c6c3d1bb86cb.png" title=" When User clicks on WebElement: &quot;LandingPage_Button_Consent&quot; (completed)" width="1920"/>
-                <img src="c45d6055a4c4c2b186da27db4a5f1835064b9d775d886c60e7b9c6c3d1bb86cb.png" title=" When User wait 2000 milliseconds for page load" width="1920"/>
-                <img src="5fd7e5641c50b6b96e0b45f0ce0ef1d5beb9ad08da57028425f7314b961ed1e3.png" title=" When User wait 2000 milliseconds for page load (completed)" width="1920"/>
-                <img src="5fd7e5641c50b6b96e0b45f0ce0ef1d5beb9ad08da57028425f7314b961ed1e3.png" title=" When User clicks on WebElement: &quot;LandingPage_Link_Rediffmail&quot;" width="1920"/>
-                <img src="5fd7e5641c50b6b96e0b45f0ce0ef1d5beb9ad08da57028425f7314b961ed1e3.png" title=" User clicks on: LandingPage_Link_Rediffmail" width="1920"/>
-                <img src="5fd7e5641c50b6b96e0b45f0ce0ef1d5beb9ad08da57028425f7314b961ed1e3.png" title=" Get web element facade: LandingPage_Link_Rediffmail" width="1920"/>
-                <img src="8b1d44e23741ed80135496fa81092dc45a59f41c6bb1aaf69f3e0730b85a4620.png" title=" Get web element facade: LandingPage_Link_Rediffmail (completed)" width="1920"/>
-                <img src="8b1d44e23741ed80135496fa81092dc45a59f41c6bb1aaf69f3e0730b85a4620.png" title=" GigyaUser clicks on By.xpath: //a[@title='Lightning fast free email']" width="1920"/>
-                <img src="1a7080e222deb31b7d0dff0fb64c65aee0900921890a6e23cbefecde9898e46d.png" title=" GigyaUser clicks on By.xpath: //a[@title='Lightning fast free email'] (completed)" width="1920"/>
-                <img src="1a7080e222deb31b7d0dff0fb64c65aee0900921890a6e23cbefecde9898e46d.png" title=" User clicks on: LandingPage_Link_Rediffmail (completed)" width="1920"/>
-                <img src="1a7080e222deb31b7d0dff0fb64c65aee0900921890a6e23cbefecde9898e46d.png" title=" When User clicks on WebElement: &quot;LandingPage_Link_Rediffmail&quot; (completed)" width="1920"/>
-                <img src="1a7080e222deb31b7d0dff0fb64c65aee0900921890a6e23cbefecde9898e46d.png" title=" When User enters Data: &quot;UserName&quot; at WebElement: &quot;LoginPage_Input_UserName&quot;" width="1920"/>
-                <img src="1a7080e222deb31b7d0dff0fb64c65aee0900921890a6e23cbefecde9898e46d.png" title=" User enters data at: UserName, LoginPage_Input_UserName" width="1920"/>
-                <img src="1a7080e222deb31b7d0dff0fb64c65aee0900921890a6e23cbefecde9898e46d.png" title=" Get web element facade: LoginPage_Input_UserName" width="1920"/>
-                <img src="1a7080e222deb31b7d0dff0fb64c65aee0900921890a6e23cbefecde9898e46d.png" title=" Get web element facade: LoginPage_Input_UserName (completed)" width="1920"/>
-                <img src="1a7080e222deb31b7d0dff0fb64c65aee0900921890a6e23cbefecde9898e46d.png" title=" GigyaUser enters 'UserName' into By.xpath: //input[@id='login1']" width="1920"/>
-                <img src="65cbc708ed34a78220ec2c7dbd494b992b2b5dea6c8a8abd86c6be66b5184285.png" title=" GigyaUser enters 'UserName' into By.xpath: //input[@id='login1'] (completed)" width="1920"/>
-                <img src="65cbc708ed34a78220ec2c7dbd494b992b2b5dea6c8a8abd86c6be66b5184285.png" title=" User enters data at: UserName, LoginPage_Input_UserName (completed)" width="1920"/>
-                <img src="65cbc708ed34a78220ec2c7dbd494b992b2b5dea6c8a8abd86c6be66b5184285.png" title=" When User enters Data: &quot;UserName&quot; at WebElement: &quot;LoginPage_Input_UserName&quot; (completed)" width="1920"/>
-                <img src="65cbc708ed34a78220ec2c7dbd494b992b2b5dea6c8a8abd86c6be66b5184285.png" title=" When User enters Data: &quot;Password&quot; at WebElement: &quot;LoginPage_Input_Password&quot;" width="1920"/>
-                <img src="65cbc708ed34a78220ec2c7dbd494b992b2b5dea6c8a8abd86c6be66b5184285.png" title=" User enters data at: Password, LoginPage_Input_Password" width="1920"/>
-                <img src="65cbc708ed34a78220ec2c7dbd494b992b2b5dea6c8a8abd86c6be66b5184285.png" title=" Get web element facade: LoginPage_Input_Password" width="1920"/>
-                <img src="65cbc708ed34a78220ec2c7dbd494b992b2b5dea6c8a8abd86c6be66b5184285.png" title=" Get web element facade: LoginPage_Input_Password (completed)" width="1920"/>
-                <img src="65cbc708ed34a78220ec2c7dbd494b992b2b5dea6c8a8abd86c6be66b5184285.png" title=" GigyaUser enters 'Password' into By.xpath: //input[@id='password']" width="1920"/>
-                <img src="f061b2bbac16b576000f9225e1d0baabe5e94c9b030b75d43027c6446dd2ae77.png" title=" GigyaUser enters 'Password' into By.xpath: //input[@id='password'] (completed)" width="1920"/>
-                <img src="f061b2bbac16b576000f9225e1d0baabe5e94c9b030b75d43027c6446dd2ae77.png" title=" User enters data at: Password, LoginPage_Input_Password (completed)" width="1920"/>
-                <img src="f061b2bbac16b576000f9225e1d0baabe5e94c9b030b75d43027c6446dd2ae77.png" title=" When User enters Data: &quot;Password&quot; at WebElement: &quot;LoginPage_Input_Password&quot; (completed)" width="1920"/>
-                <img src="f061b2bbac16b576000f9225e1d0baabe5e94c9b030b75d43027c6446dd2ae77.png" title=" Then User clicks on WebElement: &quot;LoginPage_Button_SignIn&quot;" width="1920"/>
-                <img src="f061b2bbac16b576000f9225e1d0baabe5e94c9b030b75d43027c6446dd2ae77.png" title=" User clicks on: LoginPage_Button_SignIn" width="1920"/>
-                <img src="f061b2bbac16b576000f9225e1d0baabe5e94c9b030b75d43027c6446dd2ae77.png" title=" Get web element facade: LoginPage_Button_SignIn" width="1920"/>
-                <img src="f63cd6aa6ad0345a801e066b74975633d69988774e3bcfd04045f4c9a587438d.png" title=" Get web element facade: LoginPage_Button_SignIn (completed)" width="1920"/>
-                <img src="f63cd6aa6ad0345a801e066b74975633d69988774e3bcfd04045f4c9a587438d.png" title=" GigyaUser clicks on By.xpath: //input[@title='Sign in']" width="1920"/>
-                <img src="08d716e412459c5620b7e54929098159356b5e3af565faaa3ddec6c17cb9e8de.png" title=" GigyaUser clicks on By.xpath: //input[@title='Sign in'] (completed)" width="1920"/>
-                <img src="08d716e412459c5620b7e54929098159356b5e3af565faaa3ddec6c17cb9e8de.png" title=" User clicks on: LoginPage_Button_SignIn (completed)" width="1920"/>
-                <img src="08d716e412459c5620b7e54929098159356b5e3af565faaa3ddec6c17cb9e8de.png" title=" Then User clicks on WebElement: &quot;LoginPage_Button_SignIn&quot; (completed)" width="1920"/>
-                <img src="08d716e412459c5620b7e54929098159356b5e3af565faaa3ddec6c17cb9e8de.png" title=" When User wait 2000 milliseconds for page load" width="1920"/>
-                <img src="c6df02f0ff1dde627adafa2bd7ffd90fa33d8b1660890da45430ade809f6576e.png" title=" When User wait 2000 milliseconds for page load (completed)" width="1920"/>
-                <img src="c6df02f0ff1dde627adafa2bd7ffd90fa33d8b1660890da45430ade809f6576e.png" title=" 1: Login to Rediff with valid user credentials ({UserName=UserName, Password=Password, countryGroup=https://www.rediff.com/}) (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="264d09271432e8588b822918ff19e6ab9868688ba3ff9cb48c97813aa0dd02a6.png" title=" 1: Login to Rediff with valid user credentials ({UserName=UserName, Password=Password, countryGroup=https://www.rediff.com/})" width="1920"/>
+                <img src="264d09271432e8588b822918ff19e6ab9868688ba3ff9cb48c97813aa0dd02a6.png" title=" Given User visit the Rediff Web Portal: &quot;siteName&quot;" width="1920"/>
+                <img src="264d09271432e8588b822918ff19e6ab9868688ba3ff9cb48c97813aa0dd02a6.png" title=" User visit the gigya web page: https://www.rediff.com/" width="1920"/>
+                <img src="264d09271432e8588b822918ff19e6ab9868688ba3ff9cb48c97813aa0dd02a6.png" title=" Given User visit the Rediff Web Portal: &quot;siteName&quot; (completed)" width="1920"/>
+                <img src="264d09271432e8588b822918ff19e6ab9868688ba3ff9cb48c97813aa0dd02a6.png" title=" When User wait 2000 milliseconds for page load" width="1920"/>
+                <img src="1b636272c07e112cdc9c8c5d43a1f649067080d522d340edd3ca4d1ff67bbd8f.png" title=" When User wait 2000 milliseconds for page load (completed)" width="1920"/>
+                <img src="1b636272c07e112cdc9c8c5d43a1f649067080d522d340edd3ca4d1ff67bbd8f.png" title=" When User clicks on WebElement: &quot;LandingPage_Button_Consent&quot;" width="1920"/>
+                <img src="1b636272c07e112cdc9c8c5d43a1f649067080d522d340edd3ca4d1ff67bbd8f.png" title=" User clicks on: LandingPage_Button_Consent" width="1920"/>
+                <img src="1b636272c07e112cdc9c8c5d43a1f649067080d522d340edd3ca4d1ff67bbd8f.png" title=" Get web element facade: LandingPage_Button_Consent" width="1920"/>
+                <img src="1b636272c07e112cdc9c8c5d43a1f649067080d522d340edd3ca4d1ff67bbd8f.png" title=" Get web element facade: LandingPage_Button_Consent (completed)" width="1920"/>
+                <img src="d7442a74896a32e3dec348b7a7be2e1735464d5b62bf345e49384cd5a7f3a9ed.png" title=" GigyaUser clicks on By.xpath: //button[@role='button' and @aria-label='Consent']" width="1920"/>
+                <img src="4602e7f10b4a3e9305731600fb99df6d44663cad6eb109ce8e6ea32d32d8bd99.png" title=" GigyaUser clicks on By.xpath: //button[@role='button' and @aria-label='Consent'] (completed)" width="1920"/>
+                <img src="4602e7f10b4a3e9305731600fb99df6d44663cad6eb109ce8e6ea32d32d8bd99.png" title=" User clicks on: LandingPage_Button_Consent (completed)" width="1920"/>
+                <img src="4602e7f10b4a3e9305731600fb99df6d44663cad6eb109ce8e6ea32d32d8bd99.png" title=" When User clicks on WebElement: &quot;LandingPage_Button_Consent&quot; (completed)" width="1920"/>
+                <img src="4602e7f10b4a3e9305731600fb99df6d44663cad6eb109ce8e6ea32d32d8bd99.png" title=" When User wait 2000 milliseconds for page load" width="1920"/>
+                <img src="bccf3e1cd611746ebb07c9b1f1456ce34ceca49d5de20d2d2462e945449429ff.png" title=" When User wait 2000 milliseconds for page load (completed)" width="1920"/>
+                <img src="bccf3e1cd611746ebb07c9b1f1456ce34ceca49d5de20d2d2462e945449429ff.png" title=" When User clicks on WebElement: &quot;LandingPage_Link_Rediffmail&quot;" width="1920"/>
+                <img src="bccf3e1cd611746ebb07c9b1f1456ce34ceca49d5de20d2d2462e945449429ff.png" title=" User clicks on: LandingPage_Link_Rediffmail" width="1920"/>
+                <img src="bccf3e1cd611746ebb07c9b1f1456ce34ceca49d5de20d2d2462e945449429ff.png" title=" Get web element facade: LandingPage_Link_Rediffmail" width="1920"/>
+                <img src="3a0e34cb39ee9c23176947612caff0f29726fe052febc39abc8dd83225bd9a09.png" title=" Get web element facade: LandingPage_Link_Rediffmail (completed)" width="1920"/>
+                <img src="3a0e34cb39ee9c23176947612caff0f29726fe052febc39abc8dd83225bd9a09.png" title=" GigyaUser clicks on By.xpath: //a[@title='Lightning fast free email']" width="1920"/>
+                <img src="0b88dae4ccb06db1859fe143114f27cbc0a0d830c3fe39936e4d2496a1b1223d.png" title=" GigyaUser clicks on By.xpath: //a[@title='Lightning fast free email'] (completed)" width="1920"/>
+                <img src="0b88dae4ccb06db1859fe143114f27cbc0a0d830c3fe39936e4d2496a1b1223d.png" title=" User clicks on: LandingPage_Link_Rediffmail (completed)" width="1920"/>
+                <img src="0b88dae4ccb06db1859fe143114f27cbc0a0d830c3fe39936e4d2496a1b1223d.png" title=" When User clicks on WebElement: &quot;LandingPage_Link_Rediffmail&quot; (completed)" width="1920"/>
+                <img src="0b88dae4ccb06db1859fe143114f27cbc0a0d830c3fe39936e4d2496a1b1223d.png" title=" Then User Validates Label Text: &quot;Username&quot; displayed at WebElement: &quot;LoginPage_Label_UserName&quot;" width="1920"/>
+                <img src="0b88dae4ccb06db1859fe143114f27cbc0a0d830c3fe39936e4d2496a1b1223d.png" title=" User validates label text displayed at web element: Username, LoginPage_Label_UserName" width="1920"/>
+                <img src="0b88dae4ccb06db1859fe143114f27cbc0a0d830c3fe39936e4d2496a1b1223d.png" title=" Get web element: LoginPage_Label_UserName" width="1920"/>
+                <img src="88dd11b32cb598d97847333afa30d781f183efcd6d01f97ac6c88b79e4def988.png" title=" Get web element: LoginPage_Label_UserName (completed)" width="1920"/>
+                <img src="942a48c1c6085c4a17e66328797b6742eca2c3ac20323f53cb26c342b5763f57.png" title=" GigyaUser should see a value that is equal to: &lt;&quot;Username&quot;&gt;" width="1920"/>
+                <img src="942a48c1c6085c4a17e66328797b6742eca2c3ac20323f53cb26c342b5763f57.png" title=" GigyaUser should see a value that is equal to: &lt;&quot;Username&quot;&gt; (completed)" width="1920"/>
+                <img src="942a48c1c6085c4a17e66328797b6742eca2c3ac20323f53cb26c342b5763f57.png" title=" User validates label text displayed at web element: Username, LoginPage_Label_UserName (completed)" width="1920"/>
+                <img src="942a48c1c6085c4a17e66328797b6742eca2c3ac20323f53cb26c342b5763f57.png" title=" Then User Validates Label Text: &quot;Username&quot; displayed at WebElement: &quot;LoginPage_Label_UserName&quot; (completed)" width="1920"/>
+                <img src="942a48c1c6085c4a17e66328797b6742eca2c3ac20323f53cb26c342b5763f57.png" title=" Then User Validates Label Text: &quot;Password&quot; displayed at WebElement: &quot;LoginPage_Label_Password&quot;" width="1920"/>
+                <img src="942a48c1c6085c4a17e66328797b6742eca2c3ac20323f53cb26c342b5763f57.png" title=" User validates label text displayed at web element: Password, LoginPage_Label_Password" width="1920"/>
+                <img src="896b987656f5237c8534d786590413c14345fb9ee26568add5f4708ded6b24a2.png" title=" Get web element: LoginPage_Label_Password" width="1920"/>
+                <img src="880e389dc677bd25ff5e4a0d98374988283e920338265e6cd06b1113e2bbdb81.png" title=" Get web element: LoginPage_Label_Password (completed)" width="1920"/>
+                <img src="241ceb1adfbf36ab0a0b82e38d61824c02e012817e301e775f8967422dfa4515.png" title=" GigyaUser should see a value that is equal to: &lt;&quot;Password&quot;&gt;" width="1920"/>
+                <img src="241ceb1adfbf36ab0a0b82e38d61824c02e012817e301e775f8967422dfa4515.png" title=" GigyaUser should see a value that is equal to: &lt;&quot;Password&quot;&gt; (completed)" width="1920"/>
+                <img src="241ceb1adfbf36ab0a0b82e38d61824c02e012817e301e775f8967422dfa4515.png" title=" User validates label text displayed at web element: Password, LoginPage_Label_Password (completed)" width="1920"/>
+                <img src="241ceb1adfbf36ab0a0b82e38d61824c02e012817e301e775f8967422dfa4515.png" title=" Then User Validates Label Text: &quot;Password&quot; displayed at WebElement: &quot;LoginPage_Label_Password&quot; (completed)" width="1920"/>
+                <img src="241ceb1adfbf36ab0a0b82e38d61824c02e012817e301e775f8967422dfa4515.png" title=" Then User Validates Button Text: &quot;Sign in&quot; displayed at WebElement: &quot;LoginPage_Label_SignIn&quot;" width="1920"/>
+                <img src="53a473f09da965a64ed2d63fd2ad5619ab3418dd2d684b943abd61ebb5da3366.png" title=" User validates button text displayed at web element: Sign in, LoginPage_Label_SignIn" width="1920"/>
+                <img src="53a473f09da965a64ed2d63fd2ad5619ab3418dd2d684b943abd61ebb5da3366.png" title=" Get web element: LoginPage_Label_SignIn" width="1920"/>
+                <img src="f1b40462e68d170d0de89c0ab896b6f35e17c11049cc51854e80f7c0793bddd6.png" title=" Get web element: LoginPage_Label_SignIn (completed)" width="1920"/>
+                <img src="3822752566dc86a3619bdafee8202410782bc8cbf8829f4d2c1f350029e55ed2.png" title=" GigyaUser should see a value that is equal to: &lt;&quot;Sign in&quot;&gt;" width="1920"/>
+                <img src="3822752566dc86a3619bdafee8202410782bc8cbf8829f4d2c1f350029e55ed2.png" title=" GigyaUser should see a value that is equal to: &lt;&quot;Sign in&quot;&gt; (completed)" width="1920"/>
+                <img src="3822752566dc86a3619bdafee8202410782bc8cbf8829f4d2c1f350029e55ed2.png" title=" User validates button text displayed at web element: Sign in, LoginPage_Label_SignIn (completed)" width="1920"/>
+                <img src="3822752566dc86a3619bdafee8202410782bc8cbf8829f4d2c1f350029e55ed2.png" title=" Then User Validates Button Text: &quot;Sign in&quot; displayed at WebElement: &quot;LoginPage_Label_SignIn&quot; (completed)" width="1920"/>
+                <img src="3822752566dc86a3619bdafee8202410782bc8cbf8829f4d2c1f350029e55ed2.png" title=" When User enters Data: &quot;UserName&quot; at WebElement: &quot;LoginPage_Input_UserName&quot;" width="1920"/>
+                <img src="3822752566dc86a3619bdafee8202410782bc8cbf8829f4d2c1f350029e55ed2.png" title=" User enters data at: UserName, LoginPage_Input_UserName" width="1920"/>
+                <img src="7e5f3b089667389c105655aa897a8a63b5d2de72b456b661074e72dddc223327.png" title=" Get web element facade: LoginPage_Input_UserName" width="1920"/>
+                <img src="d46d70a9a55eebe1e0fc9f523f8d64bd13d8e49807f26f58f330579bcd67d7a8.png" title=" Get web element facade: LoginPage_Input_UserName (completed)" width="1920"/>
+                <img src="d46d70a9a55eebe1e0fc9f523f8d64bd13d8e49807f26f58f330579bcd67d7a8.png" title=" GigyaUser enters 'UserName' into By.xpath: //input[@id='login1']" width="1920"/>
+                <img src="eaa4f21290b6ed616213df585c368b94f05ba14da20bea5667c65201ef31b48a.png" title=" GigyaUser enters 'UserName' into By.xpath: //input[@id='login1'] (completed)" width="1920"/>
+                <img src="eaa4f21290b6ed616213df585c368b94f05ba14da20bea5667c65201ef31b48a.png" title=" User enters data at: UserName, LoginPage_Input_UserName (completed)" width="1920"/>
+                <img src="eaa4f21290b6ed616213df585c368b94f05ba14da20bea5667c65201ef31b48a.png" title=" When User enters Data: &quot;UserName&quot; at WebElement: &quot;LoginPage_Input_UserName&quot; (completed)" width="1920"/>
+                <img src="eaa4f21290b6ed616213df585c368b94f05ba14da20bea5667c65201ef31b48a.png" title=" When User enters Data: &quot;Password&quot; at WebElement: &quot;LoginPage_Input_Password&quot;" width="1920"/>
+                <img src="eaa4f21290b6ed616213df585c368b94f05ba14da20bea5667c65201ef31b48a.png" title=" User enters data at: Password, LoginPage_Input_Password" width="1920"/>
+                <img src="eaa4f21290b6ed616213df585c368b94f05ba14da20bea5667c65201ef31b48a.png" title=" Get web element facade: LoginPage_Input_Password" width="1920"/>
+                <img src="5e86869e287aaf5599eea2ac94736e5bc8f22a49f88d4c72a38c661d4fa7486a.png" title=" Get web element facade: LoginPage_Input_Password (completed)" width="1920"/>
+                <img src="5e86869e287aaf5599eea2ac94736e5bc8f22a49f88d4c72a38c661d4fa7486a.png" title=" GigyaUser enters 'Password' into By.xpath: //input[@id='password']" width="1920"/>
+                <img src="7fc7b008a892ab95649fd84cdc91c198fcb67317b7af576e3b661b8fdda76ea9.png" title=" GigyaUser enters 'Password' into By.xpath: //input[@id='password'] (completed)" width="1920"/>
+                <img src="7fc7b008a892ab95649fd84cdc91c198fcb67317b7af576e3b661b8fdda76ea9.png" title=" User enters data at: Password, LoginPage_Input_Password (completed)" width="1920"/>
+                <img src="7fc7b008a892ab95649fd84cdc91c198fcb67317b7af576e3b661b8fdda76ea9.png" title=" When User enters Data: &quot;Password&quot; at WebElement: &quot;LoginPage_Input_Password&quot; (completed)" width="1920"/>
+                <img src="7fc7b008a892ab95649fd84cdc91c198fcb67317b7af576e3b661b8fdda76ea9.png" title=" Then User clicks on WebElement: &quot;LoginPage_Button_SignIn&quot;" width="1920"/>
+                <img src="7fc7b008a892ab95649fd84cdc91c198fcb67317b7af576e3b661b8fdda76ea9.png" title=" User clicks on: LoginPage_Button_SignIn" width="1920"/>
+                <img src="7fc7b008a892ab95649fd84cdc91c198fcb67317b7af576e3b661b8fdda76ea9.png" title=" Get web element facade: LoginPage_Button_SignIn" width="1920"/>
+                <img src="c791d613227ef983388ab0173c8c61df0774c9d39c2964177b49df98f06bce07.png" title=" Get web element facade: LoginPage_Button_SignIn (completed)" width="1920"/>
+                <img src="c791d613227ef983388ab0173c8c61df0774c9d39c2964177b49df98f06bce07.png" title=" GigyaUser clicks on By.xpath: //input[@title='Sign in']" width="1920"/>
+                <img src="3695ec78d91131c6adc22f0b72ddcafdac377297d248a4322590124c07acf27b.png" title=" GigyaUser clicks on By.xpath: //input[@title='Sign in'] (completed)" width="1920"/>
+                <img src="3695ec78d91131c6adc22f0b72ddcafdac377297d248a4322590124c07acf27b.png" title=" User clicks on: LoginPage_Button_SignIn (completed)" width="1920"/>
+                <img src="3695ec78d91131c6adc22f0b72ddcafdac377297d248a4322590124c07acf27b.png" title=" Then User clicks on WebElement: &quot;LoginPage_Button_SignIn&quot; (completed)" width="1920"/>
+                <img src="3695ec78d91131c6adc22f0b72ddcafdac377297d248a4322590124c07acf27b.png" title=" When User wait 2000 milliseconds for page load" width="1920"/>
+                <img src="c6c78253d2c67bae9a1a51b72a4bd7f5cd9a62024c4933a90a6f0056377db07c.png" title=" When User wait 2000 milliseconds for page load (completed)" width="1920"/>
+                <img src="c6c78253d2c67bae9a1a51b72a4bd7f5cd9a62024c4933a90a6f0056377db07c.png" title=" Then User Validates Error Message: &quot;Wrong username and password combination.&quot; displayed at WebElement: &quot;LoginPage_Error_InvalidCredentioals&quot;" width="1920"/>
+                <img src="c6c78253d2c67bae9a1a51b72a4bd7f5cd9a62024c4933a90a6f0056377db07c.png" title=" User validates error message displayed at web element: Wrong username and password combination., LoginPage_Error_InvalidCredentioals" width="1920"/>
+                <img src="c6c78253d2c67bae9a1a51b72a4bd7f5cd9a62024c4933a90a6f0056377db07c.png" title=" Get web element: LoginPage_Error_InvalidCredentioals" width="1920"/>
+                <img src="3fc1ee1f78f1fcdbb99a0a687be44effd39b5fbe2bfa8fadd0de3a11deba7f1e.png" title=" Get web element: LoginPage_Error_InvalidCredentioals (completed)" width="1920"/>
+                <img src="5814038018b445c021126176fc2697beb74d198903094b0945a41e603d1eecab.png" title=" GigyaUser should see a value that is equal to: &lt;&quot;Wrong username and password combination.&quot;&gt;" width="1920"/>
+                <img src="5814038018b445c021126176fc2697beb74d198903094b0945a41e603d1eecab.png" title=" GigyaUser should see a value that is equal to: &lt;&quot;Wrong username and password combination.&quot;&gt; (completed)" width="1920"/>
+                <img src="5814038018b445c021126176fc2697beb74d198903094b0945a41e603d1eecab.png" title=" User validates error message displayed at web element: Wrong username and password combination., LoginPage_Error_InvalidCredentioals (completed)" width="1920"/>
+                <img src="5814038018b445c021126176fc2697beb74d198903094b0945a41e603d1eecab.png" title=" Then User Validates Error Message: &quot;Wrong username and password combination.&quot; displayed at WebElement: &quot;LoginPage_Error_InvalidCredentioals&quot; (completed)" width="1920"/>
+                <img src="5814038018b445c021126176fc2697beb74d198903094b0945a41e603d1eecab.png" title=" 1: Login to Rediff with valid user credentials ({UserName=UserName, Password=Password, countryGroup=https://www.rediff.com/}) (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
             </div>
         </div>
 
