@@ -5,16 +5,15 @@ Roche Gigya Test Automation Project using Serenity BDD framework
 - [JDK-11](https://www.oracle.com/java/technologies/downloads/) 
 - [Maven-3.0.0](https://maven.apache.org/install.html)
 - [Serenity-BDD](https://serenity-bdd.github.io/theserenitybook/latest/index.html)
-- [GitLab Account](https://code.roche.com/users/sign_in)
 
 ###Setting Environment Variables
 - Set environment variable for JAVA_HOME , MAVEN_HOME
-- Set variable ROCHE_EMAIL to your proxy email e.g. sachin.jhadhav@rochepoc.com
-- Set variable ROCHE_USERID to your Roche Windows user id e.g jhadhavs
-- Set variable ROCHE_PASSWORD to your roche Windows password  (This is required for SSO login to Gmail)
+- Set variable EMAIL to your proxy email
+- Set variable USERID to your  Windows user id
+- Set variable PASSWORD to your  Windows password  (This is required for SSO login to Gmail)
 
 ###Getting Started
-- Clone the [repo](https://code.roche.com/roche-gigya-automation/roche-gigya-bdd-test) from GitLab
+- Clone the XXXXXXXXXXXXXXXXXXXXXXXXXX from GitLab
 - Run ```mvn clean install``` at the root of the folder
 - This will install all the project related dependency
 
@@ -29,8 +28,8 @@ Roche Gigya Test Automation Project using Serenity BDD framework
 - After test,  run  ```mvn serenity:aggregate```
 - reports are published at [./target/site/serenity/index.html](./target/site/serenity/index.html) 
 - After every run new test reports will be added 
-###GitLab CI CD Pipeline
-- Pipeline [CI CD job](https://code.roche.com/jhadhavs/roche-gigya-bdd-test/-/pipelines) is set for this project 
+###CI CD Pipeline
+- Pipeline XXXXXXXXXXXXXXXX is set for this project 
 - After every changes pushed to the branch pipeline will be triggered
 - Build and Test Jobs will run on CI
 - Test Artifacts can be downloaded from pipeline archive
