@@ -46,8 +46,8 @@ public class CommonMethods extends BasePage {
 	@Step
 
 	public void userValidatesErrorMessageDisplayedAtWebElement(String expectedText, String selector) {
-		log.info("Original Text (Key): ==>>" + expectedText);
-//        expectedText = getUserLocalizationTestData(expectedText).trim();
+//		log.info("Original Text (Key): ==>>" + expectedText);
+        expectedText = getUserLocalizationTestData(expectedText).trim();
         log.info("Expected Error Message: " + expectedText + " @==> " + selector);
         String displayedText = getWebElement(selector).getText().trim();
         log.info("Displayed Error Message: " + displayedText + " @==> " + selector);
@@ -57,8 +57,8 @@ public class CommonMethods extends BasePage {
 	
 	@Step
 	public void userValidatesLabelTextDisplayedAtWebElement(String expectedText, String selector) {
-        log.info("Original Label Text (Key): " + expectedText + " @==> " + selector);
-//        expectedText = getUserLocalizationTestData(expectedText).trim();
+//        log.info("Original Label Text (Key): " + expectedText + " @==> " + selector);
+        expectedText = getUserLocalizationTestData(expectedText).trim();
         //expectedText = getLocalizationFromSession(expectedText).trim();
         log.info("Expected Label Text (Value): " + expectedText + " @==> " + selector);
         String displayedText = getWebElement(selector).getText().trim();
@@ -73,8 +73,8 @@ public class CommonMethods extends BasePage {
 	
 	  @Step
 	    public void userValidatesButtonTextDisplayedAtWebElement(String expectedText, String selector) {
-	        log.info("Original Text (Key): ==>>" + expectedText);
-//	        expectedText = getUserLocalizationTestData(expectedText).trim();
+//	        log.info("Original Text (Key): ==>>" + expectedText);
+	        expectedText = getUserLocalizationTestData(expectedText).trim();
 	        log.info("Expected Button Text: " + expectedText + " @==> " + selector);
 	        String displayedText = getWebElement(selector).getAttribute("value").trim();
 	        log.info("Displayed Button Text: " + displayedText + " @==> " + selector);
@@ -82,6 +82,10 @@ public class CommonMethods extends BasePage {
 	    }
 
 	
+	  @Step
+	    public void userLoadDataFromLocalizationSheet(String localizationSheet) {
+	        loadLocalizationData(localizationSheet);
+	    }
 	
 	
 

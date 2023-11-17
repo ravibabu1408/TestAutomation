@@ -220,7 +220,7 @@
             <a href="#"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 17-11-2023 13:57</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 17-11-2023 20:06</span>
     <br style="clear:left"/>
 </div>
 
@@ -245,16 +245,16 @@
                                                     <span class="badge tag-badge" style="background:default;">
                                                         <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink"
                                                                                           style="background:default;"
-                                                                                          href="c721517496ffad35fe9a5d73f07a9bd15eb22da3cff8328e1d9f7ec70655c6b0.html">Login
-                                                        (tag)</a>
+                                                                                          href="34658a1663fcf042bd7acb3325affbe4e647c8acd84d0228be2f52e1381e61b9.html">10 To 30 Seconds
+                                                        (Duration)</a>
                                                     </span>
                                                 </p>
                                                 <p class="tag">
                                                     <span class="badge tag-badge" style="background:default;">
                                                         <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink"
                                                                                           style="background:default;"
-                                                                                          href="5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.html">30 To 60 Seconds
-                                                        (Duration)</a>
+                                                                                          href="c721517496ffad35fe9a5d73f07a9bd15eb22da3cff8328e1d9f7ec70655c6b0.html">Login
+                                                        (tag)</a>
                                                     </span>
                                                 </p>
                                         </span>
@@ -332,7 +332,7 @@
 
                                                     <h3>Scenarios</h3>
 
-                                                        <a name="68ad262a-d2f0-4156-9b80-7d8ddb3fc133"></a>
+                                                        <a name="c622f0cb-10c3-4427-a8ce-087f213ebbc8"></a>
 
 
                                                             <div class="scenario-docs card" id="620997b103f86356361308de495121c5fa89c57f363389571bcacb1d393a4fcd">
@@ -356,24 +356,25 @@
                                                                         <p>When User clicks on WebElement: &quot;LandingPage_Button_Consent&quot;</p>
                                                                         <p>When User wait 2000 milliseconds for page load</p>
                                                                         <p>When User clicks on WebElement: &quot;LandingPage_Link_Rediffmail&quot;</p>
-                                                                        <p>Then User Validates Label Text: &quot;Username&quot; displayed at WebElement: &quot;LoginPage_Label_UserName&quot;</p>
+                                                                        <p>Then User load Data from Localization Sheet: &quot;{localisationSheet}&quot;</p>
+                                                                        <p>Then User Validates Label Text: &quot;UserName&quot; displayed at WebElement: &quot;LoginPage_Label_UserName&quot;</p>
                                                                         <p>Then User Validates Label Text: &quot;Password&quot; displayed at WebElement: &quot;LoginPage_Label_Password&quot;</p>
-                                                                        <p>Then User Validates Button Text: &quot;Sign in&quot; displayed at WebElement: &quot;LoginPage_Label_SignIn&quot;</p>
+                                                                        <p>Then User Validates Button Text: &quot;Sign In&quot; displayed at WebElement: &quot;LoginPage_Label_SignIn&quot;</p>
                                                                         <p>When User enters Data: &quot;UserName&quot; at WebElement: &quot;LoginPage_Input_UserName&quot;</p>
                                                                         <p>When User enters Data: &quot;Password&quot; at WebElement: &quot;LoginPage_Input_Password&quot;</p>
                                                                         <p>Then User clicks on WebElement: &quot;LoginPage_Button_SignIn&quot;</p>
                                                                         <p>When User wait 2000 milliseconds for page load</p>
-                                                                        <p>Then User Validates Error Message: &quot;Wrong username and password combination.&quot; displayed at WebElement: &quot;LoginPage_Error_InvalidCredentioals&quot;</p>
+                                                                        <p>Then User Validates Error Message: &quot;Wrong Credentials&quot; displayed at WebElement: &quot;LoginPage_Error_InvalidCredentioals&quot;</p>
                                                                     <div class="examples">
                                                                             <p><p>Examples:</p>
 <blockquote>
 </blockquote>
 <div class='example-table-in-scenario'><table>
 <thead>
-<tr><th>UserName</th><th>Password</th><th>countryGroup</th><th></th></tr>
+<tr><th>UserName</th><th>Password</th><th>countryGroup</th><th>localisationSheet</th><th></th></tr>
 </thead>
 <tbody>
-<tr><td>UserName</td><td>Password</td><td>https://www.rediff.com/</td><td><a href='7587ce14672e9046050eb19595040835f0ad547bc34eb0557d93440a46c1d007.html#beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a></td></tr>
+<tr><td>UserName</td><td>Password</td><td>https://www.rediff.com/</td><td>Login</td><td><a href='7587ce14672e9046050eb19595040835f0ad547bc34eb0557d93440a46c1d007.html#beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a></td></tr>
 </tbody>
 </table></div>
 </p>
@@ -434,9 +435,9 @@
                                                                         <a href="7587ce14672e9046050eb19595040835f0ad547bc34eb0557d93440a46c1d007.html">Login to Rediff with valid user credentials</a>
                                                                         (1 example)
                                                                 </td>
-                                                                <td>13</td>
-                                                                <td>13:57:52</td>
-                                                                <td>32s 130ms</td>
+                                                                <td>14</td>
+                                                                <td>20:06:58</td>
+                                                                <td>28s 701ms</td>
                                                                 <td>
                                                                         <a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
                                                                             style="display:none">SUCCESS</span>
@@ -698,7 +699,7 @@
             datasets: [{
                 label: 'Number of tests per duration',
                 fill: false,
-                data: ['0','0','0','1','0','0','0','0'],
+                data: ['0','0','1','0','0','0','0','0'],
                 backgroundColor: 'rgba(83, 146, 255,0.5)',
                 borderColor: 'rgba(83, 146, 255, 1)',
             }]
@@ -750,12 +751,7 @@
     <!-- END SUMMARY CHART -->
 </body>
 </html>
-     // The coverage bar chart
-        const coverageChartCtx = document.getElementById('coverageChart');
-
-        // Options define for display value on top of bars
-
-        const coverageReports = [
+  const coverageReports = [
             {
                 title: 'Login to Rediff site',
                 result: 'SUCCESS',

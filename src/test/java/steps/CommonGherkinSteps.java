@@ -70,6 +70,11 @@ public class CommonGherkinSteps {
     public void userValidatesErrorMessageDisplayedAtWebElement(String expectedText, String selector) {
         commonMethods.userValidatesErrorMessageDisplayedAtWebElement(expectedText, selector);
     }
+    
+    @Then("User load Data from Localization Sheet: {string}")
+    public void userLoadDataFromLocalizationSheet(String localizationSheet) {
+        commonMethods.userLoadDataFromLocalizationSheet(localizationSheet);
+    }
 
 
 

@@ -6,11 +6,14 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import lombok.extern.slf4j.Slf4j;
+import net.serenitybdd.core.Serenity;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.thucydides.core.annotations.Step;
 import support.customUtils.CustomUtils;
+import support.excelUtils.ExcelSheetProvider;
+import support.excelUtils.Sheet;
 
 
 @Slf4j
@@ -57,12 +60,28 @@ public class BasePage extends PageObject {
 //	        
 //	    }
 	    
-	    public String getFilePath(String typeOfFile) {
+	    public String getFilePath_old(String typeOfFile) {
 	        String folderPath = "src/main/resources/WebElements/WebElements.properties";
 	        
 	        return folderPath;
 	        
 	    }
+	    
+	    
+	    public String getFilePath(String typeOfFile) {
+	    	
+	        String folderPath = "src/main/resources/";
+	        switch (typeOfFile) {
+	            case "Localization":
+	                return folderPath + "Localization/Localization.xlsx";
+	            case "WebElements":
+	                return folderPath + "WebElements/WebElements.properties";
+	            
+	            default:
+	                return "File NOT available";
+	        }
+	    }
+
 	    
 	    @Step
 	    public WebElement getWebElement(String selector) {
@@ -79,4 +98,26 @@ public class BasePage extends PageObject {
 	    }
 	    
 	    
+
+    
+	    public void loadLocalizationData(String localizationSheet) {
+	        String excelFilePath = getFilePath("Localization");
+	        log.info("Localisation file path: "+excelFilePath);
+	        Serenity.getCurrentSession().putAll(ExcelSheetProvider.getExcelDataMap(excelFilePath, localizationSheet));
+	        log.info("Excel sheet data is loaded successfully into Serenity session ");
+
+	    }
+	    
+	    @Step
+	    public String getUserLocalizationTestData(String requiredString) {
+	        String testData = null;
+	        try {
+	            testData = Serenity.getCurrentSession().get(requiredString).toString();
+	        } catch (Exception e) {
+	            testData = requiredString;
+	            log.info("Localization Details NOT Found: " + e);
+	        }
+	        return testData;
+	    }
+
 }
