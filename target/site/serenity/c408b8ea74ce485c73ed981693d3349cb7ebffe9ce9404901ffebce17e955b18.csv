@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Login to Rediff site","Login to Rediff with valid user credentials","PENDING","2023-11-16T12:07:49.9887537Z[Europe/London]","0.0","0.23"
-"Login to Rediff site","Login to Rediff with valid user credentials","ERROR","2023-11-16T12:14:00.777653Z[Europe/London]","0.0","1.17"
-"Login to Rediff site","Login to Rediff with valid user credentials","SUCCESS","2023-11-17T09:54:13.0947007Z[Europe/London]","0.0","22.65"
