@@ -12,6 +12,9 @@ Feature: Login to Rediff site
     When User enters Data: "Password" at WebElement: "LoginPage_Input_Password"
     Then User clicks on WebElement: "LoginPage_Button_SignIn"
     When User wait 2000 milliseconds for page load
+    Then User Validates Label Text: "" displayed at WebElement: "LoginPage_Heading_ErrorMessage"
+    Then User Validates Label Text: "" displayed at WebElement: "LoginPage_Heading_ErrorMessage"
+
     
     
 
